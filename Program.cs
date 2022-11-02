@@ -4,6 +4,8 @@ internal class Program
 {
     static void Main(string[] args)
     {
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
+
         string path = @"C:\Workspace\JsonExample.json";
         string data = File.ReadAllText(path);
 
